@@ -90,6 +90,7 @@ public void Guru99BankLoginPage_HeaderCheck(Method m) throws FileNotFoundExcepti
 	if(ss.equalsIgnoreCase("Guru99 Bank"))
 	{
 		Reporter.log("The Value is dislayed "+ss);
+		System.out.println("The Value is diplayed "+ss);
 		
 	}
   }
