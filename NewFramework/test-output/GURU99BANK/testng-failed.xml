@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [GURU99BANK]">
+  <test name="Default test(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="Tests.TestGuru99BankLoginPage">
+        <methods>
+          <include name="beforetest"/>
+          <include name="Check_ManagerID" invocation-numbers="0"/>
+          <include name="afterTest"/>
+        </methods>
+      </class> <!-- Tests.TestGuru99BankLoginPage -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [GURU99BANK] -->

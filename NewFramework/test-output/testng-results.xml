@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" ignored="0" total="3" passed="2">
+  <reporter-output>
+    <line>
+      <![CDATA[Before Test function called]]>
+    </line>
+    <line>
+      <![CDATA[Chrome Driver is launched]]>
+    </line>
+    <line>
+      <![CDATA[Test Result object is Created]]>
+    </line>
+    <line>
+      <![CDATA[Guru99BankLoginPage_HeaderCheck method is called]]>
+    </line>
+    <line>
+      <![CDATA[URL IS LAUNCHED http://demo.guru99.com/V4/]]>
+    </line>
+    <line>
+      <![CDATA[The Value is dislayed Guru99 Bank]]>
+    </line>
+    <line>
+      <![CDATA[Data Provider function called and running Test =Guru99BankLoginPage]]>
+    </line>
+    <line>
+      <![CDATA[Guru99BankLoginPage This test is called ]]>
+    </line>
+    <line>
+      <![CDATA[Data Provider function called and running Test =Check_ManagerID]]>
+    </line>
+    <line>
+      <![CDATA[Driver Closed]]>
+    </line>
+  </reporter-output>
+  <suite name="GURU99BANK" duration-ms="9616" started-at="2017-08-28T15:57:55Z" finished-at="2017-08-28T15:58:05Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="9616" started-at="2017-08-28T15:57:55Z" finished-at="2017-08-28T15:58:05Z">
+      <class name="Tests.TestGuru99BankLoginPage">
+        <test-method status="PASS" signature="beforetest(org.testng.ITestContext)[pri:0, instance:Tests.TestGuru99BankLoginPage@4667ae56]" name="beforetest" is-config="true" duration-ms="3393" started-at="2017-08-28T21:27:55Z" finished-at="2017-08-28T21:27:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@40cb698e]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Before Test function called]]>
+            </line>
+            <line>
+              <![CDATA[Chrome Driver is launched]]>
+            </line>
+            <line>
+              <![CDATA[Test Result object is Created]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforetest -->
+        <test-method status="PASS" signature="Guru99BankLoginPage_HeaderCheck(java.lang.reflect.Method)[pri:0, instance:Tests.TestGuru99BankLoginPage@4667ae56]" name="Guru99BankLoginPage_HeaderCheck" duration-ms="2931" started-at="2017-08-28T21:27:59Z" finished-at="2017-08-28T21:28:02Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Tests.TestGuru99BankLoginPage.Guru99BankLoginPage_HeaderCheck(java.lang.reflect.Method) throws java.io.FileNotFoundException,java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Guru99BankLoginPage_HeaderCheck method is called]]>
+            </line>
+            <line>
+              <![CDATA[URL IS LAUNCHED http://demo.guru99.com/V4/]]>
+            </line>
+            <line>
+              <![CDATA[The Value is dislayed Guru99 Bank]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Guru99BankLoginPage_HeaderCheck -->
+        <test-method status="PASS" signature="Guru99BankLoginPage(java.lang.String, java.lang.String, java.lang.reflect.Method)[pri:1, instance:Tests.TestGuru99BankLoginPage@4667ae56]" name="Guru99BankLoginPage" duration-ms="1805" started-at="2017-08-28T21:28:02Z" data-provider="Testdata" finished-at="2017-08-28T21:28:03Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[mngr94344]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[yvYqavU]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[public void Tests.TestGuru99BankLoginPage.Guru99BankLoginPage(java.lang.String,java.lang.String,java.lang.reflect.Method) throws java.io.FileNotFoundException,java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Guru99BankLoginPage This test is called ]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Guru99BankLoginPage -->
+        <test-method status="FAIL" signature="Check_ManagerID(java.lang.String, java.lang.reflect.Method)[pri:2, instance:Tests.TestGuru99BankLoginPage@4667ae56]" name="Check_ManagerID" duration-ms="257" started-at="2017-08-28T21:28:03Z" data-provider="Testdata1" finished-at="2017-08-28T21:28:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[mngr94344]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void Tests.TestGuru99BankLoginPage.Check_ManagerID(java.lang.String,java.lang.reflect.Method) throws java.io.FileNotFoundException,java.io.IOException,java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[The Manager ID is not the same expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: The Manager ID is not the same expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:93)
+	at org.testng.Assert.failNotEquals(Assert.java:512)
+	at org.testng.Assert.assertTrue(Assert.java:41)
+	at Tests.TestGuru99BankLoginPage.Check_ManagerID(TestGuru99BankLoginPage.java:117)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Check_ManagerID -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:Tests.TestGuru99BankLoginPage@4667ae56]" name="afterTest" is-config="true" duration-ms="1161" started-at="2017-08-28T21:28:04Z" finished-at="2017-08-28T21:28:05Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Driver Closed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- Tests.TestGuru99BankLoginPage -->
+    </test> <!-- Default test -->
+  </suite> <!-- GURU99BANK -->
+</testng-results>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
+    <classes>
+      <class name="Tests.TestGuru99BankLoginPage">
+        <methods>
+          <include name="beforetest"/>
+          <include name="Check_ManagerID"/>
+          <include name="Guru99BankLoginPage"/>
+          <include name="afterTest"/>
+          <include name="Guru99BankLoginPage_HeaderCheck"/>
+        </methods>
+      </class> <!-- Tests.TestGuru99BankLoginPage -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
